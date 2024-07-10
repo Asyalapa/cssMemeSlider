@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Slider</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
 </head>
 <body>
+    <header class="header">
+        <h1 class="title">Css Meme Slider</h1>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <section class="slides">
+                <input type="radio" name="radio-btn" id="radio1" checked>
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+        
+                <div class="slide first">
+                    <img src="./img/devushka.webp" alt="Slide 1">
+                    <div class="caption">Caption for Slide 1</div>
+                </div>
+                <div class="slide">
+                    <img src="./img/molchat.jpg" alt="Slide 2">
+                    <div class="caption">Caption for Slide 2</div>
+                </div>
+                <div class="slide">
+                    <img src="./img/molvi.jpg" alt="Slide 3">
+                    <div class="caption">Caption for Slide 3</div>
+                </div>
+                <div class="slide">
+                    <img src="./img/terpenie.webp" alt="Slide 4">
+                    <div class="caption">Caption for Slide 4</div>
+                </div>
+            </section>
     
+            <section class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </section>
+    
+            <section class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer_wrapper">
+            <a class="contacts_link" href="https://github.com/Asyalapa"><img class="contacts_logo" src="./img/github-mark.svg" alt="GitHub's logo">Asyalapa</a>
+            <p class="footer_copy">&copy; 2024</p>
+        </div>
+        <div class="footer_wrapper">
+            <a href="https://rs.school/courses/javascript-ru"><img class="footer_image" src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/25280abf1815aaf58ff04a69c0f82393d5f54ef0/tasks/cv/rs-school-logo.svg" alt="RS School"></a>
+        </div>
+    </footer>
 </body>
 </html>
